@@ -34,3 +34,4 @@ linode-python
 
 # Rackspace
 pyrax
+ansible>=2.7.14 # not directly required, pinned by Snyk to avoid a vulnerability
