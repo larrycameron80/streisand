@@ -6,7 +6,7 @@
 
 # Core with Azure dependencies
 #
-ansible[azure]==2.6.5
+ansible==12.0.0
 
 # Multiple packages depend on SecretStorage, and versions >= 3 require
 # Python 3. Until we're ready for Python 3, specify the earlier rev.
@@ -34,3 +34,4 @@ linode-python
 
 # Rackspace
 pyrax
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
